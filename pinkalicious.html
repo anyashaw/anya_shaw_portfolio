@@ -2,9 +2,11 @@
 <html lang="en">  
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
             <title>Pinkalicious Theme</title>
 
+        <!--Bootstrap stylesheet-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <!--custom stylesheet-->
         <link rel="stylesheet" href="css/style.css">
         <!--external stylesheets-->
@@ -17,10 +19,10 @@
     </head>
 
     <body>
-        <div class="content">
+        <div class="content container-fluid">
              <!--title block, background image is title image-->
             <div class="row" style="background-image:url(assets/loc1_madison.png); background-size:contain;">
-                <div class="center title">
+                <div class="col-12 center title">
                     <!--title text-->
                     <h1>Pinkalicious Map</h1>
                     <!--subtitle or author-->
@@ -29,65 +31,65 @@
             </div>
             <!--text content block-->
             <div class="row">
-                <div class="center">
+                <div class="col-12 center">
                     <p>This explainer describes a web map based on the work of a childrens book: <b>Pinkalicious.</b></p>
                 </div>
             </div>
 
             <div class="row">
-                <div class="center">
+                <div class="col-12 center">
                     <p>Pinkalicious is a book about a young girl obsessed with eating pink cupcakes her and her family baked. She ends up
                         eating too many and turns <b>completely pink!</b> I grew up loving this book so this project was a personal favorite
                         of mine. </p>
                 </div>
             </div>
             <!--side by side text and image-->
-            <div class="row">
-                <div class="left">
-                    <img class="fit" src="assets/title_cover.png">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-12">
+                    <img class="fit w-100" src="assets/title_cover.png">
                 </div>
-                <div class="right">
+                <div class="col-md-6 col-12">
                     <p class="vert-center">The map makes use of the childlike appreciation for pink by utilizing a 
                         mostly monochromatic pink color scheme and cupcakes as place locations.</p>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="left">
-                    <img class="fit" src="assets/inspo_pages.png">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-12">
+                    <img class="fit w-100" src="assets/inspo_pages.png">
                 </div>
-                <div class="right">
+                <div class="col-md-6 col-12">
                     <p class="vert-center">I used the purple background of the house as font colors, which 
                         is complementary to pink. The pink wallpaper was also a source of inspiration for the water.</p>
                 </div>
             </div>
         
-            <div class="row">
-                <div class="left">
-                    <img class="fit" src="assets/icons.png">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-12">
+                    <img class="fit w-100" src="assets/icons.png">
                 </div>
-                <div class="right">
+                <div class="col-md-6 col-12">
                     <p class="vert-center">At a certain zoom, the base water is replaced with cherry patterns,
                         copying both the cherry at the top of the cupcake and the wallpaper in the house. The cupcake
                         is used as a place location for main cities.</p>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="left">
-                    <img class="fit" src="assets/color_palette.png">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-12">
+                    <img class="fit w-100" src="assets/color_palette.png">
                 </div>
-                <div class="right">
+                <div class="col-md-6 col-12">
                     <p class="vert-center">Based on the given pictures above, I chose these colors as the main color palette
                         of the map. The roads are the gold accents of the crown and title color while the land is various hues of pink.</p>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="left">
-                    <img class="fit" src="assets/type_faces.png">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-12">
+                    <img class="fit w-100" src="assets/type_faces.png">
                 </div>
-                <div class="right">
+                <div class="col-md-6 col-12">
                     <p class="vert-center">I only picked two typefaces: A Yummy Apology and Yantia. A Yummy Apology is used as a decorative typeface
                         for small scale places like continents and countries, while all uppercase Yantia is used on the rest of the labels. The roads are all lowercase.
                         I chose to differentiate the different capitilazation to mimic a kid, with scratchy handwriting and less formal on a more zoomed scale.</p>
@@ -130,24 +132,24 @@
             </div>
 
             <div class="row">
-                <div class="center-wide">
+                <div class="col-12 center-wide">
                     <!-- Slideshow container -->
                     <div class="slideshow-container">
                         <!--slideshow content goes here-->
                         <div class="slide">
-                            <img src="assets/scale1_world.png">
+                            <img src="assets/scale1_world.png" class="w-100">
                             <p class="caption">A zoomed-out view of the Pinkalicious style.</p>
                         </div>
                         <div class="slide">
-                            <img src="assets/scale2_continentaus.png">
+                            <img src="assets/scale2_continentaus.png" class="w-100">
                             <p class="caption">A mid-scale view centered on the continent of Australia.</p>
                         </div>
                         <div class="slide">
-                            <img src="assets/scale3_jamaica.png">
+                            <img src="assets/scale3_jamaica.png" class="w-100">
                             <p class="caption">A large-scale view of Jamaica.</p>
                         </div>
                         <div class="slide">
-                            <img src="assets/scale4_scihall.png">
+                            <img src="assets/scale4_scihall.png" class="w-100">
                             <p class="caption">Science Hall in Madison, WI.</p>
                         </div>
                         <!-- Next and previous buttons -->
@@ -166,14 +168,14 @@
             </div>
 
             <div class="row">
-                <div class="center-wide">
-                    <iframe class="fit" src="https://api.mapbox.com/styles/v1/anyaya/cmgl035ls001a01rt6v4z98h9.html?title=view&access_token=pk.eyJ1IjoiYW55YXlhIiwiYSI6ImNtZ2wwMXNjcDBzenIyaW9rY2JuZGo2djQifQ.umqDok2K-A4wKbrKKAYdCw&zoomwheel=true&fresh=true#0/0/0"></iframe>
+                <div class="col-12 center-wide">
+                    <iframe class="fit w-100" src="https://api.mapbox.com/styles/v1/anyaya/cmgl035ls001a01rt6v4z98h9.html?title=view&access_token=pk.eyJ1IjoiYW55YXlhIiwiYSI6ImNtZ2wwMXNjcDBzenIyaW9rY2JuZGo2djQifQ.umqDok2K-A4wKbrKKAYdCw&zoomwheel=true&fresh=true#0/0/0"></iframe>
                 </div>
             </div>
 
             <!--credits-->
-            <div class="row no-margin">
-                <div class="center">
+            <div class="row">
+                <div class="col-12 center">
                     <div class="credits">
                         <p><b>Credits:</b></p>
                         <p>Map created with Mapbox Studio</p>
@@ -185,8 +187,8 @@
 
         </div>
         <!--external scripts-->
-        <script type="text/javascript" src="../lib/jquery-3.5.1.min.js"></script>
-        <script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+        <script type="text/javascript" src="lib/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="lib/bootstrap.min.js"></script>
         <script type="text/javascript" src="lib/scrollmap.js"></script>
     </body>
 </html>
