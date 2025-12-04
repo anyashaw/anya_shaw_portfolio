@@ -1,5 +1,5 @@
 .bg-color {
-    background-color: #c6b9cd;
+    background-color: #e9e1ee;
 }
 
 /* Add padding*/
@@ -68,7 +68,7 @@
 .jumbotron {
     /***background-color: #47a181;***/
     text-align: center;
-    color: #ffffff;
+    color: #1D3557;
     padding: 3%;
     border-radius: 0px;
     height: 150px;
@@ -92,8 +92,6 @@
 
 .card {
     background-color: #fff;
-    border-color: #cccccc;
-    border-width: 1px;
     padding:25px 0;
     height: 400px;
     display: flex;
@@ -117,7 +115,8 @@
 }
 
 .card:hover {
-    border-color: #47a181;
+    border-color: #1D3557;
+    border-width: 1px;
 }
 
 .container{
@@ -227,7 +226,7 @@ h3 {
 }
 
 .title-background h1 {
-    color:darkslateblue;
+    color:#1D3557;
     display: flex;
     justify-content: center;
     position: relative;
