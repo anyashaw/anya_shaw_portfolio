@@ -1,5 +1,11 @@
 .bg-color {
     background-color: #c6b9cd;
+}
+
+/* Add padding*/
+.content {
+    padding-left: 1rem;
+    padding-right: 1rem;
 } 
 
 /***** NAVBAR *****/
@@ -114,7 +120,7 @@
 }
 
 .container{
-    padding:25px 0;
+    padding:25px 1px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -199,17 +205,41 @@ iframe{
     height:600px;
 }
 
-h1 {
-    color:darkslateblue;
-    font-size:50px;
-}
-
 h3 {
     font-family:'Trebuchet MS';
 }
 .image {
     scale: .75;
 }
-.author {
-    font-size: 20px;
+
+/*** TITLE CARD ***/
+
+.title-background {
+    background-image: url('../assets/wider_madison.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
+
+.title-background h1 {
+    color:darkslateblue;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.title-background .author {
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
