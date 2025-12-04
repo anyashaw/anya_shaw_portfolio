@@ -14,6 +14,7 @@
     background-color: #1D3557;
     border-radius: 0;
     padding: 0.5rem 1rem;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 /* Navbar title */
@@ -192,13 +193,9 @@ a:hover {
 }
 
 body {
-
-    font-family: 'Georgia', serif;
+    font-family: 'Josefin Sans', sans-serif;
     background-color: #f7f1fa;
     color: #242424;
-}
-body{
-    font-family: 'Josefin Sans', sans-serif;
 }
 
 iframe{
@@ -206,7 +203,7 @@ iframe{
 }
 
 h3 {
-    font-family:'Trebuchet MS';
+    font-family: 'Josefin Sans', sans-serif;
 }
 .image {
     scale: .75;
